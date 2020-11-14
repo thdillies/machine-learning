@@ -24,8 +24,8 @@ tn : true negative
 Metrics we could use :
 precision : tp/(tp+fp)
 recall : tp/(tp+fn)
-#Metric retained : F1 score : 2 $\frac{recall\*precision}{recall+precision}$ 
-We will consider the F1 score metric because our dataset is unbalanced and we want to get rid of the biais a predominant class.
+#Metric retained : F1 score : 2 recall\*precision/(recall+precision) 
+We will consider the F1 score metric because our dataset is unbalanced and we want to get rid of the biais of a predominant class.
 
 ## II. Analysis
 _(approx. 2-4 pages)_
