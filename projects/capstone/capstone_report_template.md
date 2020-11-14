@@ -24,13 +24,16 @@ tn : true negative
 Metrics we could use :
 precision : tp/(tp+fp)
 recall : tp/(tp+fn)
-#Metric retained : F1 score : 2 recall\*precision/(recall+precision) 
+_Metric retained_ : F1 score : 2 recall\*precision/(recall+precision) 
 We will consider the F1 score metric because our dataset is unbalanced and we want to get rid of the biais of a predominant class.
 
 ## II. Analysis
-_(approx. 2-4 pages)_
 
 ### Data Exploration
+Data used is a set of 8351 dogs’ RGB photos provided by Udacity. Data is split in 3 datasets : a train dataset of 6680 images, a validation dataset of 835 images and a test dataset of 836 images. These photos are just like photos that could be sent by users to determine their dog’s breed.
+These photos are labeled with one of 133 different dog breeds.
+For each breed, we don't have the amount of dog image, find below the repartition of the dog breeds in the training set :
+
 In this section, you will be expected to analyze the data you are using for the problem. This data can either be in the form of a dataset (or datasets), input data (or input files), or even an environment. The type of data should be thoroughly described and, if possible, have basic statistics and information presented (such as discussion of input features or defining characteristics about the input or environment). Any abnormalities or interesting qualities about the data that may need to be addressed have been identified (such as features that need to be transformed or the possibility of outliers). Questions to ask yourself when writing this section:
 - _If a dataset is present for this problem, have you thoroughly discussed certain features about the dataset? Has a data sample been provided to the reader?_
 - _If a dataset is present for this problem, are statistics about the dataset calculated and reported? Have any relevant results from this calculation been discussed?_
